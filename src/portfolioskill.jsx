@@ -19,10 +19,10 @@ const Skill = ({ backgroundcolor, txtColor }) => {
 
             <Flip left cascade>
               <ol id="skillslist" className="text-center">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
+                <li className="skills">HTML</li>
+                <li className="skills">CSS</li>
+                <li className="skills">JavaScript</li>
+                <li className="skills">React</li>
               </ol>
             </Flip>
           </div>
@@ -30,10 +30,10 @@ const Skill = ({ backgroundcolor, txtColor }) => {
 
             <Flip left cascade>
               <ol id="skillslist" className="text-center">
-                <li>Bootstrap</li>
-                <li>jQuery</li>
-                <li>Node.js</li>
-                <li>GitHub</li>
+                <li className="skills">Bootstrap</li>
+                <li className="skills">jQuery</li>
+                <li className="skills">Node.js</li>
+                <li className="skills">GitHub</li>
               </ol>
             </Flip>
           </div>
