@@ -17,7 +17,6 @@ const BackToTopButton = ()=>{
     
     //Will run scrollFunction on scroll
     window.onscroll = function (){
-        console.log("scroll function is running");
         scrollFunction();
     };
     
