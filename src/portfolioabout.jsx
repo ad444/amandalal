@@ -17,8 +17,9 @@ const About = ({ backgroundcolor, txtColor }) => {
             </div>
           </div>
           <div className="col-12 col-md-10 col-xl-8 mx-auto mt-4">
-            <h5 id="abouttext">Pursuing an integrated M.Tech course in IT from International Institute of Professional Studies, DAVV, Indore.
-            <br/><em id="highlightedPhrase" className="font-weight-bold">"Seeking internship to learn more about web technologies & tools in real world and work with sheer determination & dedication to produce impactful results for the company".</em>
+            <h5 id="abouttext">Pursuing an integrated M.Tech course in IT from International Institute of Professional Studies, DAVV, Indore. 
+                    Seeking  to learn about new technologies, tools and  industrial approach. I am looking for an opportunity where 
+                    I can learn new skills in the real world and also I can utilize my potential towards the advancement of company.
             </h5>
           </div>
 
@@ -108,11 +109,11 @@ const About = ({ backgroundcolor, txtColor }) => {
           <div className="col-12 mt-4">
             <div className="row">
               <div className="d-none d-md-inline col-md-1 col-xl-2"></div>
-              <div className="col-4 col-md-3 col-xl-2 text-left"><p id="acadyear">2<sup>nd</sup> Year</p></div>
+              <div className="col-4 col-md-3 col-xl-2 text-left"><p id="acadyear">8<sup>nd</sup> Year</p></div>
               <div className="col-4 col-md-2 col-xl-1 text-center">
                 <VisibilitySensor>
                   {({ isVisible }) => {
-                    const percentage = isVisible ? 7.9 : 0;
+                    const percentage = isVisible ? 7.75 : 0;
                     return (
                       <CircularProgressbar className="marks"
                         value={percentage} maxValue={10} text={`${percentage} CGPA`}
